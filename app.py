@@ -83,7 +83,7 @@ def generate_output(user_input):
     
     **Dish Concept:** A unique {user_input.title()} tart with a {pair1.title()} base and a {pair2.title()} dust.
     
-    **Why it Works (The Science):** The **Graph Embeddings Model** placed these ingredients closely together in the vector space, indicating a high overlap in their aromatic profiles. This ensures a harmonious blend that hits the **Scientific** and **Amazing** criteria of The Flavor Lab.
+    **Why it Works (The Science):** The **Graph Embeddings Model** placed these ingredients closely together in the vector space, indicating a high overlap in their aromatic profiles.
     """
     
     return results_markdown, recipe_markdown
