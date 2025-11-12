@@ -26,7 +26,7 @@ The following limitations are expected:
 1) Small Ingredient Set: Only a few ingredients are "known" to the model. Entering an unknown ingredient will result in a "vector not found" error.
 Please enter Strawberry, Basil, or Chocolate for accuracy of results.
 
-Inaccurate Profiles: The flavor vectors are mock data (not derived from the full FlavorGraph dataset). Therefore, some pairings and generated recipes may occasionally be nonsensical (high similarity score between two flavors that don't traditionally mix).
+2) Inaccurate Profiles: The flavor vectors are mock data (not derived from the full FlavorGraph dataset). Therefore, some pairings and generated recipes may occasionally be nonsensical (high similarity score between two flavors that don't traditionally mix).
 For example, entering Vanilla would result in Garlic having the highest match.
 "Dish Concept: A unique Vanilla tart with a Garlic base and a Coconut dust." 🥴
 
