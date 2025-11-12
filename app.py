@@ -49,7 +49,7 @@ def get_pairings(ingredient):
             similarities[name] = score
 
     sorted_similarities = sorted(similarities.items(), key=lambda item: item[1], reverse=True)
-    top_matches_with_scores = sorted_similarities[:4]
+    top_matches_with_scores = sorted_similarities[:5]
     
     return top_matches_with_scores
 
