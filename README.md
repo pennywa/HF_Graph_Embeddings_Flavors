@@ -1,10 +1,8 @@
-# HF_Graph_Embeddings_Flavors
-
 ---
 title: Graph Embeddings Flavors MVP
 emoji: 🧪
-colorFrom: red
-colorTo: orange
+colorFrom: blue
+colorTo: purple
 sdk: gradio
 sdk_version: "3.50.2"
 app_file: app.py
